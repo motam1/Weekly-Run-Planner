@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href = "images/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>Weekly Running Planner</title>
+</head>
+<body>
+    <header>
+        <div id="headerDIV">
+            <h1>Weekly Running Planner</h1>
+        </div>
+    </header>
+    <main>
+        <div class="days" id = "monday">
+            <h3>Monday
+                <input type = "checkbox" class = "completedBox">
+                <p class="completedText">Completed</p>
+            </h3>
+            <button onclick="addRun('monday')">Add Run</button>
+            <button onclick="addWorkout('monday')">Add Workout</button>
+            <button onclick="addRestDay('monday')">Add Rest Day</button>
+        </div>
+        <div class="days" id = "tuesday">
+            <h3>Tuesday
+                <input type = "checkbox" class = "completedBox">
+                <p class="completedText">Completed</p>
+            </h3>
+            <button onclick="addRun('tuesday')">Add Run</button>
+            <button onclick="addWorkout('tuesday')">Add Workout</button>
+            <button onclick="addRestDay('tuesday')">Add Rest Day</button>
+        </div>
+        <div class="days" id = "wednesday">
+            <h3>Wednesday
+                <input type = "checkbox" class = "completedBox">
+                <p class="completedText">Completed</p>
+            </h3>
+            <button onclick="addRun('wednesday')">Add Run</button>
+            <button onclick="addWorkout('wednesday')">Add Workout</button>
+            <button onclick="addRestDay('wednesday')">Add Rest Day</button>
+        </div>
+        <div class="days" id = "thursday">
+            <h3>Thursday
+                <input type = "checkbox" class = "completedBox">
+                <p class="completedText">Completed</p>
+            </h3>
+            <button onclick="addRun('thursday')">Add Run</button>
+            <button onclick="addWorkout('thursday')">Add Workout</button>
+            <button onclick="addRestDay('thursday')">Add Rest Day</button>
+        </div>
+        <div class="days" id = "friday">
+            <h3>Friday
+                <input type = "checkbox" class = "completedBox">
+                <p class="completedText">Completed</p>
+            </h3>
+            <button onclick="addRun('friday')">Add Run</button>
+            <button onclick="addWorkout('friday')">Add Workout</button>
+            <button onclick="addRestDay('friday')">Add Rest Day</button>
+        </div>
+        <div class="days" id = "saturday">
+            <h3>Saturday
+                <input type = "checkbox" class = "completedBox">
+                <p class="completedText">Completed</p>
+            </h3>
+            <button onclick="addRun('saturday')">Add Run</button>
+            <button onclick="addWorkout('saturday')">Add Workout</button>
+            <button onclick="addRestDay('saturday')">Add Rest Day</button>
+        </div>
+        <div class="days" id = "sunday">
+            <h3>Sunday
+                <input type = "checkbox" class = "completedBox">
+                <p class="completedText">Completed</p>
+            </h3>
+            <button onclick="addRun('sunday')">Add Run</button>
+            <button  onclick="addWorkout('sunday')">Add Workout</button>
+            <button onclick="addRestDay('sunday')">Add Rest Day</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
